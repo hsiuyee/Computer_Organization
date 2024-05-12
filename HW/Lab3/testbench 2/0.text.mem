@@ -1,0 +1,5 @@
+8f 84 00 00  // [00400000] lw $4, 0($28)                   ; 10: lw      $a0, 0($gp)
+8f 85 00 04  // [00400004] lw $5, 4($28)                   ; 11: lw      $a1, 4($gp)
+20 11 00 08  // [00400008] addi $s1, $0, 8                 ; 12: addi    $s1, $0, 8    # will this executed even branch is taken? How about others?
+
+// 000000

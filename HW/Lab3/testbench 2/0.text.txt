@@ -1,0 +1,3 @@
+[00400000] 8f840000 lw $4, 0($28)                   ; 10: lw      $a0, 0($gp)
+[00400004] 8f850004 lw $5, 4($28)                   ; 11: lw      $a1, 4($gp)
+[00400008] 20110008 addi $s1, $0, 8                 ; 12: addi    $s1, $0, 8      # will this executed even branch is taken? How about others?
